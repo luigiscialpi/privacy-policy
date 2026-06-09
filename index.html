@@ -1,73 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - WhatStat</title>
     <style>
       body {
         font-family: Arial, sans-serif;
-        max-width: 900px;
+        max-width: 920px;
         margin: auto;
-        padding: 30px;
+        padding: 28px;
         background: #f5f5f5;
-        color: #333;
-        line-height: 1.7;
+        color: #222;
+        line-height: 1.65;
       }
-
       .container {
-        background: white;
-        padding: 40px;
+        background: #fff;
+        padding: 32px;
         border-radius: 12px;
-        box-shadow: 0 2px 12px rgba(0, 0, 0, .1);
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
       }
-
-      h1 {
-        text-align: center;
-        color: #1a73e8;
-      }
-
-      h2 {
-        color: #1a73e8;
-        margin-top: 30px;
-      }
-
-      a {
-        color: #1a73e8;
-      }
-
-      footer {
-        margin-top: 40px;
-        text-align: center;
-        color: #777;
-      }
+      h1 { text-align: center; color: #1a73e8; margin-top: 0; }
+      h2 { color: #1a73e8; margin-top: 28px; }
+      ul { margin-top: 8px; }
+      .small { font-size: 0.95rem; color: #555; }
+      footer { text-align: center; margin-top: 18px; color: #666; font-size: 0.9rem; }
+      a { color: #1a73e8; }
     </style>
   </head>
   <body>
     <div class="container">
-      <h1>Privacy Policy</h1>
+      <h1>Privacy Policy - WhatStat</h1>
+      <p class="small"><strong>Last updated:</strong> 2026-06-09</p>
+
+      <h2>1. About Us</h2>
       <p>
-        <strong>Last updated:</strong> 26 May 2026
+        This Privacy Policy describes how WhatStat processes data during the use
+        of the app.
       </p>
-      <p> This Privacy Policy explains how this application ("App") handles information when you use it. </p>
-      <h2>Information Collection</h2>
-      <p> The App does not directly collect, store, transmit, or share personal information from users. </p>
-      <p> All application data is stored locally on the user's device. </p>
-      <h2>Advertising</h2>
-      <p> The App uses Google AdMob to display advertisements. Google AdMob may automatically collect certain information, such as advertising identifiers, device information, IP address, and approximate location information, for advertising and fraud prevention purposes. </p>
-      <p> The developer does not have access to or control over the information collected by Google AdMob. </p>
-      <p> For more information, please review Google's Privacy Policy: </p>
+
+      <h2>2. Key Principle of the App</h2>
       <p>
-        <a href="https://policies.google.com/privacy" target="_blank"> https://policies.google.com/privacy </a>
+        WhatStat analyzes WhatsApp data locally on the device.
+        <strong>
+          Chat content (text messages), phone numbers, JIDs, and contact names
+          are not sent from the app’s tracking mechanisms to external servers.
+        </strong>
       </p>
-      <h2>Children's Privacy</h2>
-      <p> The App is not specifically directed to children under the age of 13. </p>
-      <h2>Changes to This Policy</h2>
-      <p> This Privacy Policy may be updated from time to time. Any changes will be posted on this page. </p>
-      <h2>Contact</h2>
-      <p> If you have any questions regarding this Privacy Policy, you may contact: </p>
-      <p> luigi_scialpi@hotmail.it </p>
+
+      <h2>3. Processed Data and Third-Party Services</h2>
+      <p>
+        The app integrates Google/Firebase services that may process technical data
+        necessary for operation, analytics, advertising, and diagnostics.
+      </p>
+      <ul>
+        <li>
+          <strong>Firebase Analytics</strong>: technical app usage events
+          (e.g., screens viewed, clicks, app version, aggregated technical parameters).
+        </li>
+        <li>
+          <strong>Firebase Remote Config</strong>: remote configurations
+          (e.g., feature flags, forced updates, warning messages).
+        </li>
+        <li>
+          <strong>Firebase Crashlytics</strong>: crash reports and diagnostics
+          (stack trace, app version, device model, technical runtime status).
+        </li>
+        <li>
+          <strong>Google AdMob</strong>: advertising and fraud prevention;
+          may process advertising/device identifiers and technical data.
+        </li>
+        <li>
+          <strong>Google UMP (User Messaging Platform)</strong>: ad consent management, where required.
+        </li>
+      </ul>
+
+      <h2>4. Data Categories (High Level)</h2>
+      <ul>
+        <li>App interactions (app usage events)</li>
+        <li>Device/other identifiers (technical/advertising identifiers)</li>
+        <li>Crash logs and diagnostic data (stability and bug fixing)</li>
+      </ul>
+
+      <h2>5. Purposes of processing</h2>
+      <ul>
+        <li>Analytics and product improvement</li>
+        <li>Application features (runtime configurations, forced updates)</li>
+        <li>Advertising (free version)</li>
+        <li>Security/stability (crash diagnostics)</li>
+      </ul>
+
+      <h2>6. What we DO NOT collect in our app events</h2>
+      <ul>
+        <li>No message text/chat content</li>
+        <li>No phone numbers</li>
+        <li>No contact JIDs</li>
+        <li>No contact names from the chat database</li>
+      </ul>
+
+      <h2>7. Retention and control</h2>
+      <p>
+        Retention periods may depend on third-party services (Google/Firebase).
+        Users can manage advertising preferences and consent according to the options available
+        on their device and in Google services.
+      </p>
+
+      <h2>8. Security</h2>
+      <p>
+        Data transmitted to the cloud services used by the app is protected in transit
+        in accordance with the provider’s standards.
+      </p>
+
+      <h2>9. Children</h2>
+      <p>
+        The app is not specifically intended for children under 13.
+      </p>
+
+      <h2>10. Changes to this policy</h2>
+      <p>
+        This policy may be updated over time. Changes will be posted on this page.
+      </p>
+
+      <h2>11. Contact</h2>
+      <p>
+        For privacy questions, please contact:
+        <br />
+        <strong>ligalui@gmail.com</strong>
+      </p>
+
+      <h2>12. Useful provider links</h2>
+      <ul>
+        <li>
+          Google Privacy Policy:
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+            https://policies.google.com/privacy
+          </a>
+        </li>
+        <li>
+          Firebase Data Processing and Privacy:
+          <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">
+            https://firebase.google.com/support/privacy
+          </a>
+        </li>
+      </ul>
     </div>
-    <footer> © 2026 Luigi Scialpi </footer>
+    <footer>© 2026 Luigi Scialpi</footer>
+
   </body>
+
 </html>
